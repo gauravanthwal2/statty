@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the login component renders login 1`] = `
+<div>
+  <div
+    class="backGrnd"
+  >
+    <div
+      class="login"
+    >
+      <div
+        class="loginForm"
+      >
+        <div
+          class="formLable"
+        >
+          <form>
+            <div
+              class="row"
+            >
+              <label
+                class="rowChng"
+<<<<<<< HEAD
+                for="email" >
+=======
+                for="email"
+              >
+>>>>>>> 22f94f16ba1468ebc5873269e1fcfdbd56e071af
+                Email Address 
+                 
+                <span
+                  class="required"
+                >
+                  *
+                </span>
+              </label>
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                required=""
+                type="email"
+                value=""
+              />
+              <p
+                class="example"
+              >
+                Example: Smigel@publicissapient.com
+              </p>
+            </div>
+            <div
+              class="row justify-content-center"
+            >
+              <button
+                class="primaryButton"
+                data-testid="primary"
+                type="submit"
+              >
+                Send OTP
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

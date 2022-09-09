@@ -1,0 +1,24 @@
+.formSection {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.required {
+  color: #fe414d;
+}
+
+.trainingForm label {
+  font-size: 14px;
+}
+.trainingForm h5 {
+  color: #333;
+  font-weight: normal;
+}
+
+/* For Smaller devices */
+@media (max-width: 768px) {
+  .formSection {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,15 @@
+.secondaryButton{
+    border: none;
+    outline: none;
+    background-color: #00e6c3;  
+    padding: .5rem 1rem; 
+    color: #212121;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all .2s ease;
+    font-size: 1rem;
+   }
+   
+   .secondaryButton:hover{
+       opacity: .9;
+   }

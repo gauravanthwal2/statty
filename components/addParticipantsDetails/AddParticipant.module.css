@@ -1,0 +1,8 @@
+.addParticipant {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.training {
+  column-count: 2;
+  column-gap: 40px;
+}
